@@ -1,0 +1,125 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+    // @include intro-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+    @include intro-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    @include intro-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    @include intro-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    h1 {
+        font-size: 33px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    @include header-lg-xlg;
+    @include nav-lg-xlg;
+    @include intro-lg-xlg;
+}
+// 930px
+@include md-lg {
+    h5 {
+        font-size: 14px;
+    }
+    p {
+        &.sm {
+            font-size: 12px;
+            line-height: 20px;
+        }
+    }
+    @include intro-md-lg;
+    @include about-md-lg;
+    @include footer-md-lg;
+}
+// 750px
+@include sm-md {
+    h1 {
+        font-size: 28px;
+        b {
+            span {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+    h2 {
+        font-size: 30px;
+    }
+    body {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    @include intro-sm-md;
+    @include about-sm-md;
+    @include footer-sm-md;
+}
+// 650px
+@include sm-md-extra {
+    @include intro-sm-md-extra;
+}
+// 540px
+@include xsm-sm  {
+    .auto__container {
+        padding: 0 20px;
+    }
+    h1 {
+        font-size: 22px;
+        b {
+            span {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h6 {
+        &.title {
+            font-size: 12px;
+            letter-spacing: 2px;
+        }
+    }
+
+    body {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .button {
+        padding: 4px 14px;
+        font-size: 13px;
+    }
+    .main {
+        padding-top: 45px;
+    }
+    .anchor {
+        top: -40px;
+    }
+    @include header-xsm-sm;
+    @include nav-xsm-sm;
+    @include intro-xsm-sm;
+    @include about-xsm-sm;
+    @include footer-xsm-sm;
+}
+// 440px
+@include xxsm-xsm  {
+    @include intro-xxsm-xsm;
+}
+// 390px
+@include xxxsm-xxsm  {
+    // @include intro-xxxsm-xxsm;
+}
+
